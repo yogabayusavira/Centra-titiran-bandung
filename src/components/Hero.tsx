@@ -16,7 +16,7 @@ const Hero = () => {
           backgroundImage: "url('https://images.unsplash.com/photo-1580674285054-bed31e145f59')",
           backgroundSize: "cover",
           backgroundPosition: "center",
-          opacity: 0.2,
+          opacity: 1,
         }}
       />
       <div className="absolute inset-0 bg-gradient-to-br from-centra-blue to-centra-dark-blue opacity-90 z-0"></div>
