@@ -12,6 +12,13 @@ const Navbar = () => {
     "group inline-flex h-10 w-max items-center justify-center px-4 py-2 text-sm font-medium transition-colors hover:text-centra-blue focus:bg-accent focus:text-accent-foreground focus:outline-none disabled:pointer-events-none disabled:opacity-50 data-[active]:bg-accent/50 data-[state=open]:bg-accent/50"
   );
 
+  const scrollToSection = (id: string) => {
+    const section = document.getElementById(id);
+    if (section) {
+      section.scrollIntoView({ behavior: "smooth" });
+    }
+  };
+
   return (
     <nav className="fixed top-0 left-0 right-0 z-50 bg-white bg-opacity-95 backdrop-blur-sm shadow-sm border-b">
       <div className="container-custom py-3 flex items-center justify-between">
@@ -24,27 +31,47 @@ const Navbar = () => {
           <NavigationMenu>
             <NavigationMenuList>
               <NavigationMenuItem>
-                <NavigationMenuLink className={navigationMenuTriggerStyle} href="#services">
+                <NavigationMenuLink 
+                  className={navigationMenuTriggerStyle} 
+                  onClick={() => scrollToSection("services")}
+                  href="#services"
+                >
                   Layanan
                 </NavigationMenuLink>
               </NavigationMenuItem>
               <NavigationMenuItem>
-                <NavigationMenuLink className={navigationMenuTriggerStyle} href="#testimonials">
+                <NavigationMenuLink 
+                  className={navigationMenuTriggerStyle} 
+                  onClick={() => scrollToSection("testimonials")}
+                  href="#testimonials"
+                >
                   Testimoni
                 </NavigationMenuLink>
               </NavigationMenuItem>
               <NavigationMenuItem>
-                <NavigationMenuLink className={navigationMenuTriggerStyle} href="#issues">
+                <NavigationMenuLink 
+                  className={navigationMenuTriggerStyle} 
+                  onClick={() => scrollToSection("issues")}
+                  href="#issues"
+                >
                   Kerusakan
                 </NavigationMenuLink>
               </NavigationMenuItem>
               <NavigationMenuItem>
-                <NavigationMenuLink className={navigationMenuTriggerStyle} href="#faq">
+                <NavigationMenuLink 
+                  className={navigationMenuTriggerStyle} 
+                  onClick={() => scrollToSection("faq")}
+                  href="#faq"
+                >
                   FAQ
                 </NavigationMenuLink>
               </NavigationMenuItem>
               <NavigationMenuItem>
-                <NavigationMenuLink className={navigationMenuTriggerStyle} href="#contact">
+                <NavigationMenuLink 
+                  className={navigationMenuTriggerStyle} 
+                  onClick={() => scrollToSection("contact")}
+                  href="#contact"
+                >
                   Kontak
                 </NavigationMenuLink>
               </NavigationMenuItem>
@@ -65,12 +92,7 @@ const Navbar = () => {
           variant="ghost" 
           size="sm" 
           className="md:hidden"
-          onClick={() => {
-            const contactSection = document.getElementById("contact");
-            if (contactSection) {
-              contactSection.scrollIntoView({ behavior: "smooth" });
-            }
-          }}
+          onClick={() => scrollToSection("contact")}
         >
           Kontak
         </Button>

@@ -37,7 +37,7 @@ const FAQSection = () => {
   ];
 
   return (
-    <section className="section-padding bg-gray-50">
+    <section id="faq" className="section-padding bg-gray-50">
       <div className="container-custom">
         <div className="text-center mb-12">
           <Badge className="mb-3 bg-centra-blue/10 text-centra-blue hover:bg-centra-blue/20 text-sm py-1 px-3">
