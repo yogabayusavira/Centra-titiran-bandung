@@ -12,8 +12,8 @@ const Hero = () => {
       {/* Background image with blue tint overlay */}
       <div className="absolute inset-0 z-0">
         <img 
-          src="https://images.unsplash.com/photo-1551038247-3d9af20df552" 
-          alt="Background" 
+          src="https://images.unsplash.com/photo-1580674285054-bed31e145f59" 
+          alt="Laptop Repair Background" 
           className="w-full h-full object-cover opacity-20"
         />
         <div className="absolute inset-0 bg-gradient-to-br from-centra-blue to-centra-dark-blue opacity-95"></div>
