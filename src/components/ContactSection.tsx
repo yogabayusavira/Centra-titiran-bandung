@@ -2,7 +2,7 @@
 import React from "react";
 import { Badge } from "@/components/ui/badge";
 import { Card, CardContent } from "@/components/ui/card";
-import { WhatsApp, Phone, MapPin, Clock, Instagram, Facebook } from "lucide-react";
+import { MessageCircle, Phone, MapPin, Clock, Instagram, Facebook } from "lucide-react";
 import { Button } from "@/components/ui/button";
 
 const ContactSection = () => {
@@ -44,7 +44,7 @@ const ContactSection = () => {
                     </div>
                     
                     <div className="flex">
-                      <WhatsApp className="h-5 w-5 text-centra-blue mr-3 mt-0.5 flex-shrink-0" />
+                      <MessageCircle className="h-5 w-5 text-centra-blue mr-3 mt-0.5 flex-shrink-0" />
                       <div>
                         <p className="text-gray-700">0878-1200-1104</p>
                         <p className="text-sm text-gray-500">Respon cepat via WhatsApp</p>
@@ -85,7 +85,7 @@ const ContactSection = () => {
                       className="bg-whatsapp-green hover:bg-whatsapp-green/90 text-white w-full"
                       onClick={() => window.open("https://wa.me/6287812001104", "_blank")}
                     >
-                      <WhatsApp className="mr-2" size={18} />
+                      <MessageCircle className="mr-2" size={18} />
                       Hubungi via WhatsApp
                     </Button>
                   </div>

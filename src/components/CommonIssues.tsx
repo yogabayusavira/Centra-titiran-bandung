@@ -1,9 +1,8 @@
-
 import React from "react";
 import { Badge } from "@/components/ui/badge";
 import { Card, CardContent, CardDescription, CardHeader, CardTitle } from "@/components/ui/card";
 import { Button } from "@/components/ui/button";
-import { WhatsApp } from "lucide-react";
+import { MessageCircle } from "lucide-react";
 
 const CommonIssues = () => {
   const issues = [
@@ -78,7 +77,7 @@ const CommonIssues = () => {
               className="bg-whatsapp-green hover:bg-whatsapp-green/90 text-white font-semibold text-lg px-6 py-6"
               onClick={() => window.open(whatsappLink, "_blank")}
             >
-              <WhatsApp className="mr-2" size={22} />
+              <MessageCircle className="mr-2" size={22} />
               Konsultasi Gratis via WhatsApp
             </Button>
           </div>

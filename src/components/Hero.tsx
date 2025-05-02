@@ -2,7 +2,7 @@
 import React from "react";
 import { Button } from "@/components/ui/button";
 import { Badge } from "@/components/ui/badge";
-import { WhatsApp } from "lucide-react";
+import { MessageCircle } from "lucide-react";
 
 const Hero = () => {
   const whatsappLink = "https://wa.me/6287812001104?text=Halo%20Centra%20Computer%20Titiran%2C%20saya%20ingin%20konsultasi%20tentang%20";
@@ -29,7 +29,7 @@ const Hero = () => {
               className="bg-whatsapp-green hover:bg-whatsapp-green/90 text-white font-semibold text-lg px-6 py-6 rounded-lg w-full sm:w-auto"
               onClick={() => window.open(whatsappLink, "_blank")}
             >
-              <WhatsApp className="mr-2" size={22} />
+              <MessageCircle className="mr-2" size={22} />
               WhatsApp Sekarang
             </Button>
             
