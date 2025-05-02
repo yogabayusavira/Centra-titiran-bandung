@@ -10,14 +10,16 @@ const Hero = () => {
   return (
     <section className="relative mt-16 md:mt-20 bg-centra-blue text-white py-16 md:py-24 overflow-hidden">
       {/* Background image with blue tint overlay */}
-      <div className="absolute inset-0 z-0">
-        <img 
-          src="https://images.unsplash.com/photo-1580674285054-bed31e145f59" 
-          alt="Laptop Repair Background" 
-          className="w-full h-full object-cover opacity-20"
-        />
-        <div className="absolute inset-0 bg-gradient-to-br from-centra-blue to-centra-dark-blue opacity-95"></div>
-      </div>
+      <div 
+        className="absolute inset-0 z-0"
+        style={{
+          backgroundImage: "url('https://images.unsplash.com/photo-1580674285054-bed31e145f59')",
+          backgroundSize: "cover",
+          backgroundPosition: "center",
+          opacity: 0.2,
+        }}
+      />
+      <div className="absolute inset-0 bg-gradient-to-br from-centra-blue to-centra-dark-blue opacity-90 z-0"></div>
       
       <div className="container-custom relative z-10">
         <div className="max-w-3xl mx-auto text-center">
