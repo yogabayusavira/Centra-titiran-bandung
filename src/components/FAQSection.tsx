@@ -16,7 +16,7 @@ const FAQSection = () => {
     },
     {
       question: "Apakah ada garansi untuk servis yang dilakukan?",
-      answer: "Ya, semua servis yang kami lakukan mendapatkan garansi resmi. Garansi untuk software minimal 7 hari dan untuk hardware minimal 30 hari tergantung jenis perbaikan. Detail garansi akan dijelaskan sebelum memulai servis."
+      answer: "Ya, semua service yang kami lakukan mendapatkan garansi resmi. Garansi untuk software sampai dengan 4bulan dan untuk hardware 1 bulan. Detail garansi dan harga akan dijelaskan sebelum memulai service."
     },
     {
       question: "Bagaimana cara booking servis di Centra Computer?",

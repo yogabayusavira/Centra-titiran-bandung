@@ -54,7 +54,7 @@ const ContactSection = () => {
                     <div className="flex">
                       <Clock className="h-5 w-5 text-centra-blue mr-3 mt-0.5 flex-shrink-0" />
                       <div>
-                        <p className="text-gray-700">Senin–Sabtu: 07.00–20.00 WIB</p>
+                        <p className="text-gray-700">Senin–Sabtu: 09.30–19.00 WIB</p>
                         <p className="text-sm text-gray-500">Dilayani oleh customer service kami</p>
                       </div>
                     </div>
@@ -70,7 +70,7 @@ const ContactSection = () => {
                         <Instagram size={20} />
                       </a>
                       <a 
-                        href="#" 
+                        href="https://www.facebook.com/titiran.servicelaptopterbaikdibandung" 
                         target="_blank" 
                         rel="noopener noreferrer"
                         className="text-gray-600 hover:text-centra-blue"
