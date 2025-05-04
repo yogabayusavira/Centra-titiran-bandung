@@ -2,7 +2,8 @@
 import React from "react";
 import { Badge } from "@/components/ui/badge";
 import { Card, CardContent } from "@/components/ui/card";
-import { Star } from "lucide-react";
+import { Button } from "@/components/ui/button";
+import { Star, ExternalLink } from "lucide-react";
 
 const Testimonials = () => {
   const testimonials = [
@@ -80,6 +81,16 @@ const Testimonials = () => {
             <span className="font-bold text-gray-800">4.9/5.0</span>
             <span className="text-gray-500">berdasarkan 100+ ulasan Google</span>
           </div>
+        </div>
+
+        <div className="mt-8 text-center">
+          <Button
+            variant="default"
+            className="bg-centra-blue hover:bg-centra-blue/90"
+            onClick={() => window.open("https://maps.app.goo.gl/e1WQ6tFpWefPnXMn6", "_blank")}
+          >
+            Lihat Lebih Banyak Review <ExternalLink className="ml-1" size={16} />
+          </Button>
         </div>
       </div>
     </section>
