@@ -1,10 +1,7 @@
-
 import React from "react";
 import { Instagram, Facebook } from "lucide-react";
-
 const Footer = () => {
-  return (
-    <footer className="bg-gray-900 text-gray-300 py-10">
+  return <footer className="bg-gray-900 text-gray-300 py-10">
       <div className="container-custom">
         <div className="grid grid-cols-1 md:grid-cols-12 gap-8">
           <div className="md:col-span-5">
@@ -13,20 +10,10 @@ const Footer = () => {
               Servis laptop, Macbook, komputer & printer profesional. Dipercaya sejak 2013 dengan teknisi berpengalaman dan harga terjangkau.
             </p>
             <div className="flex items-center space-x-4">
-              <a 
-                href="https://instagram.com/centracomputer.titiran" 
-                target="_blank" 
-                rel="noopener noreferrer"
-                className="text-gray-400 hover:text-white"
-              >
+              <a href="https://instagram.com/centracomputer.titiran" target="_blank" rel="noopener noreferrer" className="text-gray-400 hover:text-white">
                 <Instagram size={20} />
               </a>
-              <a 
-                href="#" 
-                target="_blank" 
-                rel="noopener noreferrer"
-                className="text-gray-400 hover:text-white"
-              >
+              <a href="#" target="_blank" rel="noopener noreferrer" className="text-gray-400 hover:text-white">
                 <Facebook size={20} />
               </a>
             </div>
@@ -48,7 +35,7 @@ const Footer = () => {
               <p className="mb-2">Jl. Titiran No.10, Bandung</p>
               <p className="mb-2">Telepon: 0878-1200-1104</p>
               <p className="mb-2">WhatsApp: 0878-1200-1104</p>
-              <p>Senin–Sabtu: 07.00–20.00 WIB</p>
+              <p>Senin–Sabtu: 09.30–19.00 WIB</p>
             </address>
           </div>
         </div>
@@ -57,8 +44,6 @@ const Footer = () => {
           <p>© {new Date().getFullYear()} Centra Computer Titiran. All rights reserved.</p>
         </div>
       </div>
-    </footer>
-  );
+    </footer>;
 };
-
 export default Footer;
