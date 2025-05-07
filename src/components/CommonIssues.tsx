@@ -75,7 +75,7 @@ const CommonIssues = () => {
             </p>
             <Button 
               size="lg" 
-              className="bg-whatsapp-green hover:bg-whatsapp-green/90 text-white font-semibold text-lg px-6 py-6"
+              className="bg-whatsapp-green hover:bg-whatsapp-green/90 text-white font-semibold px-6 py-2 w-auto"
               onClick={() => window.open(whatsappLink, "_blank")}
             >
               <MessageCircle className="mr-2" size={22} />
