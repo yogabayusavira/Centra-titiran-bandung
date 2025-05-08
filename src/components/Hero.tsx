@@ -32,16 +32,7 @@ Gratis Antar Jemput Daerah Bandung</h1>
               WhatsApp Sekarang
             </Button>
             
-            <Button variant="outline" size="lg" className="bg-white hover:bg-white/90 text-centra-blue border-2 border-white font-semibold text-lg px-6 py-6 rounded-lg w-full sm:w-auto" onClick={() => {
-            const contactSection = document.getElementById("contact");
-            if (contactSection) {
-              contactSection.scrollIntoView({
-                behavior: "smooth"
-              });
-            }
-          }}>
-              Lokasi & Informasi
-            </Button>
+            
           </div>
           
           <div className="mt-8 bg-white/20 backdrop-blur-sm rounded-lg p-4 inline-block">
