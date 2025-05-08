@@ -1,12 +1,9 @@
-
 import React from "react";
 import { Button } from "@/components/ui/button";
 import { Badge } from "@/components/ui/badge";
 import { MessageCircle } from "lucide-react";
-
 const Hero = () => {
   const whatsappLink = "https://wa.me/6287812001104?text=Halo%20Centra%20Computer%20Titiran%2C%20saya%20ingin%20konsultasi%20tentang%20";
-  
   return <section className="relative mt-16 md:mt-20 bg-centra-blue text-white py-16 md:py-24 overflow-hidden">
       {/* Background image with blue tint overlay */}
       <div className="absolute inset-0 z-0" style={{
@@ -34,20 +31,8 @@ Gratis Antar Jemput Daerah Bandung</h1>
               <MessageCircle className="mr-2" size={22} />
               WhatsApp Sekarang
             </Button>
-          </div>
-          
-          {/* Added element from testimonials */}
-          <div className="mt-6">
-            <div className="flex items-center gap-2 bg-white rounded-full px-5 py-3 shadow-sm border border-gray-100 mx-auto inline-flex">
-              <div className="flex -space-x-2">
-                {[1, 2, 3].map((i) => (
-                  <div key={i} className="w-8 h-8 rounded-full bg-gray-200 border-2 border-white overflow-hidden flex items-center justify-center">
-                    <span className="text-xs text-gray-500 font-medium">👤</span>
-                  </div>
-                ))}
-              </div>
-              <span className="text-gray-800 text-sm font-medium">Konsultasi Gratis Via WhatsApp</span>
-            </div>
+            
+            
           </div>
           
           <div className="mt-8 bg-white/20 backdrop-blur-sm rounded-lg p-4 inline-block">
@@ -61,5 +46,4 @@ Gratis Antar Jemput Daerah Bandung</h1>
       </div>
     </section>;
 };
-
 export default Hero;

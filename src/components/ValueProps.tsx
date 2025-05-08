@@ -46,20 +46,6 @@ const ValueProps = () => {
           <p className="text-lg text-gray-600 mt-3 max-w-2xl mx-auto">
             Kami hadir dengan solusi terbaik untuk kebutuhan servis laptop, komputer, dan printer di Bandung
           </p>
-          
-          {/* Added consultation via WhatsApp element */}
-          <div className="mt-6 mb-8">
-            <div className="flex items-center gap-2 bg-white rounded-full px-5 py-3 shadow-sm border border-gray-100 mx-auto inline-flex">
-              <div className="flex -space-x-2">
-                {[1, 2, 3].map((i) => (
-                  <div key={i} className="w-8 h-8 rounded-full bg-gray-200 border-2 border-white overflow-hidden flex items-center justify-center">
-                    <span className="text-xs text-gray-500 font-medium">👤</span>
-                  </div>
-                ))}
-              </div>
-              <span className="text-gray-800 text-sm font-medium">Konsultasi Gratis Via WhatsApp</span>
-            </div>
-          </div>
         </div>
 
         <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-8">
