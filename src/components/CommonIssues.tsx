@@ -79,7 +79,7 @@ const CommonIssues = () => {
               onClick={() => window.open(whatsappLink, "_blank")}
             >
               <MessageCircle className="mr-2" size={22} />
-              Konsultasi Gratis via WhatsApp
+              Konsultasi Gratis Via WhatsApp
             </Button>
           </div>
         </div>
