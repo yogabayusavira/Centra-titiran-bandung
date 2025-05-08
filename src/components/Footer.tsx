@@ -1,7 +1,5 @@
-
 import React from "react";
 import { Instagram, Facebook } from "lucide-react";
-
 const Footer = () => {
   return <footer className="bg-gray-900 text-gray-300 py-10">
       <div className="container-custom">
@@ -20,10 +18,10 @@ const Footer = () => {
           </div>
           
           <address className="not-italic text-center mb-6">
-            <p className="mb-2">Jl. Titiran No.10, Bandung</p>
-            <p className="mb-2">Telepon: 0878-1200-1104</p>
-            <p className="mb-2">WhatsApp: 0878-1200-1104</p>
-            <p>Senin–Sabtu: 09.30–19.00 WIB</p>
+            
+            
+            
+            
           </address>
         </div>
         
@@ -33,5 +31,4 @@ const Footer = () => {
       </div>
     </footer>;
 };
-
 export default Footer;
