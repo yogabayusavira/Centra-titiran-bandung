@@ -3,7 +3,7 @@ import React from "react";
 import { Badge } from "@/components/ui/badge";
 import { Card, CardContent, CardDescription, CardHeader, CardTitle } from "@/components/ui/card";
 import { Button } from "@/components/ui/button";
-import { MessageCircle } from "lucide-react";
+import { MessageCircle, Star } from "lucide-react";
 
 const CommonIssues = () => {
   const issues = [
@@ -81,6 +81,17 @@ const CommonIssues = () => {
               <MessageCircle className="mr-2" size={22} />
               Konsultasi Gratis Via WhatsApp
             </Button>
+            
+            {/* Rating display under the WhatsApp button */}
+            <div className="mt-5 flex justify-center">
+              <div className="flex items-center gap-2 bg-white/20 backdrop-blur-sm rounded-lg px-5 py-3">
+                <div className="flex">
+                  {Array(5).fill(null).map((_, i) => <Star key={i} size={18} className="fill-yellow-400 text-yellow-400" />)}
+                </div>
+                <span className="font-bold text-white">4.9/5.0</span>
+                <span className="text-white/90">berdasarkan 200+ ulasan Google</span>
+              </div>
+            </div>
           </div>
         </div>
       </div>

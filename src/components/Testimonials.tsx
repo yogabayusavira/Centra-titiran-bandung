@@ -1,8 +1,10 @@
+
 import React from "react";
 import { Badge } from "@/components/ui/badge";
 import { Card, CardContent } from "@/components/ui/card";
 import { Button } from "@/components/ui/button";
 import { Star, ExternalLink } from "lucide-react";
+
 const Testimonials = () => {
   const testimonials = [{
     quote: "Harganya jauh lebih terjangkau & cepat. Laptop saya kembali seperti baru dalam 2 hari saja.",
@@ -21,9 +23,11 @@ const Testimonials = () => {
     location: "Dago, Bandung",
     rating: 5
   }];
+  
   const renderStars = (rating: number) => {
     return Array(rating).fill(null).map((_, i) => <Star key={i} size={16} className="fill-yellow-400 text-yellow-400" />);
   };
+  
   return <section id="testimonials" className="section-padding bg-gray-50">
       <div className="container-custom">
         <div className="text-center mb-12">
@@ -54,16 +58,6 @@ const Testimonials = () => {
               </CardContent>
             </Card>)}
         </div>
-        
-        <div className="mt-10 flex justify-center">
-          <div className="flex items-center gap-2 bg-white rounded-full px-5 py-3 shadow-sm border border-gray-100">
-            <div className="flex">
-              {Array(5).fill(null).map((_, i) => <Star key={i} size={20} className="fill-yellow-400 text-yellow-400" />)}
-            </div>
-            <span className="font-bold text-gray-800">4.9/5.0</span>
-            <span className="text-gray-500">berdasarkan 200+ ulasan Google</span>
-          </div>
-        </div>
 
         <div className="mt-8 text-center">
           <Button variant="default" className="bg-centra-blue hover:bg-centra-blue/90" onClick={() => window.open("https://maps.app.goo.gl/e1WQ6tFpWefPnXMn6", "_blank")}>
@@ -73,4 +67,5 @@ const Testimonials = () => {
       </div>
     </section>;
 };
+
 export default Testimonials;
