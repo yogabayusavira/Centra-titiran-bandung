@@ -8,22 +8,22 @@ import { Avatar, AvatarFallback, AvatarImage } from "@/components/ui/avatar";
 
 const Testimonials = () => {
   const whatsappTestimonials = [
-    "public/lovable-uploads/56c964a1-2c15-45aa-b3d4-e490cd179c88.png",
-    "public/lovable-uploads/fd66d095-a67d-4041-85af-97dc2adfc2c8.png",
-    "public/lovable-uploads/57570b69-250f-4777-b388-683ad87ecfaf.png",
-    "public/lovable-uploads/cc34d3f2-135c-44d8-966b-1ca56a9d1364.png",
-    "public/lovable-uploads/95adab9a-36ec-4ba0-ace1-abbfb7199945.png",
-    "public/lovable-uploads/990bc7dc-ad04-46c2-9435-d8f4de3e421b.png"
+    "/lovable-uploads/56c964a1-2c15-45aa-b3d4-e490cd179c88.png",
+    "/lovable-uploads/fd66d095-a67d-4041-85af-97dc2adfc2c8.png",
+    "/lovable-uploads/57570b69-250f-4777-b388-683ad87ecfaf.png",
+    "/lovable-uploads/cc34d3f2-135c-44d8-966b-1ca56a9d1364.png",
+    "/lovable-uploads/95adab9a-36ec-4ba0-ace1-abbfb7199945.png",
+    "/lovable-uploads/990bc7dc-ad04-46c2-9435-d8f4de3e421b.png"
   ];
   
   const googleTestimonials = [
-    "public/lovable-uploads/8f88c22d-9662-4571-9899-c8da79610d9d.png",
-    "public/lovable-uploads/701242f6-01c2-4d54-aa4e-1952903b6caa.png",
-    "public/lovable-uploads/fc3bc50b-f6ec-4c56-8b0d-2f8fea26f7be.png",
-    "public/lovable-uploads/078e06e2-8cbd-44c5-8f80-109b373495dd.png",
-    "public/lovable-uploads/eeca3601-e719-446e-9599-19d10c128a1a.png",
-    "public/lovable-uploads/307af6c0-8b5e-4e20-9cc2-4bb8830ef28c.png",
-    "public/lovable-uploads/bd46b0d4-9601-4e82-b130-da9b19f163d6.png"
+    "/lovable-uploads/8f88c22d-9662-4571-9899-c8da79610d9d.png",
+    "/lovable-uploads/701242f6-01c2-4d54-aa4e-1952903b6caa.png",
+    "/lovable-uploads/fc3bc50b-f6ec-4c56-8b0d-2f8fea26f7be.png",
+    "/lovable-uploads/078e06e2-8cbd-44c5-8f80-109b373495dd.png",
+    "/lovable-uploads/eeca3601-e719-446e-9599-19d10c128a1a.png",
+    "/lovable-uploads/307af6c0-8b5e-4e20-9cc2-4bb8830ef28c.png",
+    "/lovable-uploads/bd46b0d4-9601-4e82-b130-da9b19f163d6.png"
   ];
   
   return (
