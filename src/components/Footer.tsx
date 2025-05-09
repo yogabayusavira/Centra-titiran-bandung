@@ -12,7 +12,7 @@ const Footer = () => {
             <a href="https://instagram.com/centracomputer.titiran" target="_blank" rel="noopener noreferrer" className="text-gray-400 hover:text-white">
               <Instagram size={20} />
             </a>
-            <a href="#" target="_blank" rel="noopener noreferrer" className="text-gray-400 hover:text-white">
+            <a href="https://www.facebook.com/titiran.servicelaptopterbaikdibandung" target="_blank" rel="noopener noreferrer" className="text-gray-400 hover:text-white">
               <Facebook size={20} />
             </a>
           </div>
