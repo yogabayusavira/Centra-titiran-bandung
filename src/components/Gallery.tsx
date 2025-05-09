@@ -14,27 +14,27 @@ import { GalleryHorizontal } from "lucide-react";
 const Gallery = () => {
   const images = [
     {
-      src: "public/lovable-uploads/220540c2-2fc4-4761-9347-cf133cd47528.png",
+      src: "/lovable-uploads/220540c2-2fc4-4761-9347-cf133cd47528.png",
       alt: "Centra Computer staff providing home service"
     },
     {
-      src: "public/lovable-uploads/4f4ba6d9-b2fb-446b-b167-3067a7f7c4cc.png",
+      src: "/lovable-uploads/4f4ba6d9-b2fb-446b-b167-3067a7f7c4cc.png",
       alt: "Technician repairing device"
     },
     {
-      src: "public/lovable-uploads/caa1fbcc-a523-48f3-85f5-7ec3d139e1e8.png",
+      src: "/lovable-uploads/caa1fbcc-a523-48f3-85f5-7ec3d139e1e8.png",
       alt: "Circuit board repair with microscope"
     },
     {
-      src: "public/lovable-uploads/015992de-cbcd-48a3-a27a-36f58bfda525.png",
+      src: "/lovable-uploads/015992de-cbcd-48a3-a27a-36f58bfda525.png",
       alt: "Centra Computer store front"
     },
     {
-      src: "public/lovable-uploads/d05cebb0-ae8a-47c0-9acd-b4986604f71e.png",
+      src: "/lovable-uploads/d05cebb0-ae8a-47c0-9acd-b4986604f71e.png",
       alt: "Centra Computer staff"
     },
     {
-      src: "public/lovable-uploads/9f600518-a375-495d-9522-9a36d21c5f09.png",
+      src: "/lovable-uploads/9f600518-a375-495d-9522-9a36d21c5f09.png",
       alt: "Technician on service call"
     }
   ];
