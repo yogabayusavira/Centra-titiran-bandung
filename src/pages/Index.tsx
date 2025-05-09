@@ -5,6 +5,7 @@ import Hero from "../components/Hero";
 import ValueProps from "../components/ValueProps";
 import Testimonials from "../components/Testimonials";
 import CommonIssues from "../components/CommonIssues";
+import Gallery from "../components/Gallery";
 import FAQSection from "../components/FAQSection";
 import ContactSection from "../components/ContactSection";
 import WhatsAppButton from "../components/WhatsAppButton";
@@ -17,6 +18,7 @@ const Index = () => {
       <main>
         <Hero />
         <ValueProps />
+        <Gallery />
         <Testimonials />
         <CommonIssues />
         <FAQSection />
